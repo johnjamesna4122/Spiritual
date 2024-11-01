@@ -48,7 +48,7 @@ Feel free to use, modify, and enhance this project! Fork it, make it your own, a
 ## Usage
 
 1. Open your browser and navigate to `http://localhost:3000`.
-2. Start enhancing your prompts with Claude AI!
+2. Start enhancing your prompts
 
 ## Building for Production
 
