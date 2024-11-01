@@ -18,9 +18,9 @@ export default function PromptEnhancer() {
   const [isDark, setIsDark] = useState(false);
 
   useEffect(() => {
-    setIsDark(false)
-    document.documentElement.classList.remove('dark')
-  }, [])
+    setIsDark(false);
+    document.documentElement.classList.remove("dark");
+  }, []);
 
   const toggleTheme = () => {
     setIsDark(!isDark);
@@ -260,26 +260,32 @@ export default function PromptEnhancer() {
       </main>
 
       {/* Footer */}
-      <footer className={`border-t py-3 mt-auto text-sm ${
-  isDark ? "border-rose-900/20" : "border-emerald-200"
-}`}>
-  <div className="container mx-auto px-4 flex justify-between items-center">
-    <p className={`text-xs ${isDark ? "text-rose-300" : "text-emerald-600"}`}>
-      © {new Date().getFullYear()} Spiritual
-    </p>
-    <Link 
-      href="https://joinwarp.com" 
-      target="_blank"
-      className={`text-xs transition-colors ${
-        isDark 
-          ? "text-rose-300 hover:text-rose-200" 
-          : "text-emerald-600 hover:text-emerald-800"
-      }`}
-    >
-      Sponsored by JoinWarp
-    </Link>
-  </div>
-</footer>
+      <footer
+        className={`border-t py-3 mt-auto text-sm ${
+          isDark ? "border-rose-900/20" : "border-emerald-200"
+        }`}
+      >
+        <div className="container mx-auto px-4 flex justify-between items-center">
+          <p
+            className={`text-xs ${
+              isDark ? "text-rose-300" : "text-emerald-600"
+            }`}
+          >
+            © {new Date().getFullYear()} Spiritual
+          </p>
+          <Link
+            href="https://joinwarp.com"
+            target="_blank"
+            className={`text-xs transition-colors ${
+              isDark
+                ? "text-rose-300 hover:text-rose-200"
+                : "text-emerald-600 hover:text-emerald-800"
+            }`}
+          >
+            Sponsored by JoinWarp
+          </Link>
+        </div>
+      </footer>
     </div>
   );
 }
