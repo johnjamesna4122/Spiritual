@@ -1,9 +1,9 @@
 <div align="center">
   <h1>Spiritual</h1>
   <p>A minimal prompt enhancement tool powered by Claude AI</p>
+  
+  <img src="Perfection.gif" alt="Preview" width="800"/>
 </div>
-
-![Preview](Perfection.gif)
 
 ## Features
 
@@ -13,6 +13,9 @@
 - ⚡ Real-time streaming responses
 - 📱 Fully responsive design
 
+## Community & Contributions
+
+Feel free to use, modify, and enhance this project! Fork it, make it your own, and share your improvements. I'll be happy to review and discuss any updates you create. Let's make prompt enhancement even better together! 🚀
 ## Prerequisites
 
 - Node.js 
@@ -62,3 +65,6 @@ npm start
 ## License
 
 This project is licensed under the MIT License.
+
+
+**Built with ❤️ by [dxd](https://x.com/dxd)**
