@@ -17,13 +17,10 @@ export default function PromptEnhancer() {
   const [isCopied, setIsCopied] = useState(false);
   const [isDark, setIsDark] = useState(false);
 
-  // Check system preference on mount
   useEffect(() => {
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      setIsDark(true);
-      document.documentElement.classList.add("dark");
-    }
-  }, []);
+    setIsDark(false)
+    document.documentElement.classList.remove('dark')
+  }, [])
 
   const toggleTheme = () => {
     setIsDark(!isDark);
