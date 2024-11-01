@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>spiritual</h1>
+  <h1>Spiritual</h1>
   <p>A minimal prompt enhancement tool powered by Claude AI</p>
 </div>
 
@@ -22,25 +22,25 @@
 ## Installation
 
 1. Clone the repository:
-   \`\`\`bash
+   ```bash
    git clone https://github.com/dxd/spiritual.git
    cd spiritual
-   \`\`\`
+   ```
 
 2. Install dependencies:
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 3. Set up your Anthropic API key by creating a `.env` file:
-   \`\`\`bash
+   ```bash
    echo "ANTHROPIC_API_KEY=your_api_key_here" > .env
-   \`\`\`
+   ```
 
 4. Start the development server:
-   \`\`\`bash
+   ```bash
    npm run dev
-   \`\`\`
+   ```
 
 ## Usage
 
@@ -50,21 +50,21 @@
 ## Building for Production
 
 To create a production build, run:
-\`\`\`bash
+```bash
 npm run build
-\`\`\`
+```
 
 Then, start the production server with:
-\`\`\`bash
+```bash
 npm start
-\`\`\`
+```
 
 ## Contributing
 
 1. Fork the project
-2. Create your feature branch (\`git checkout -b feature/AmazingFeature\`)
-3. Commit your changes (\`git commit -m 'Add AmazingFeature'\`)
-4. Push to the branch (\`git push origin feature/AmazingFeature\`)
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a pull request
 
 ## License
