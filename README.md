@@ -67,4 +67,6 @@ npm start
 This project is licensed under the MIT License.
 
 
-**Built with ❤️ by [dxd](https://x.com/dxd)**
+**Built with ❤️ by [dxd](https://x.com/dxd)** & **[zaza](https://github.com/zaa-za)**
+**AfterImage**
+
