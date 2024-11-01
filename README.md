@@ -3,7 +3,7 @@
   <p>A minimal prompt enhancement tool powered by Claude AI</p>
 </div>
 
-![Preview](Perfection.mp4)
+![Preview](Perfection.gif)
 
 ## Features
 
