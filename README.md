@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  <h1>spiritual</h1>
+  <p>A minimal prompt enhancement tool powered by Claude AI</p>
+</div>
 
-## Getting Started
+![Preview](Perfection.mp4)
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 🎨 Minimal, clean interface
+- 🌙 Dark/light mode with themed mascots
+- 🤖 Claude AI-powered prompt enhancement
+- ⚡ Real-time streaming responses
+- 📱 Fully responsive design
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Prerequisites
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Node.js 
+- Anthropic API key
+- Next.js
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Installation
 
-## Learn More
+1. Clone the repository:
+   \`\`\`bash
+   git clone https://github.com/dxd/spiritual.git
+   cd spiritual
+   \`\`\`
 
-To learn more about Next.js, take a look at the following resources:
+2. Install dependencies:
+   \`\`\`bash
+   npm install
+   \`\`\`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Set up your Anthropic API key by creating a `.env` file:
+   \`\`\`bash
+   echo "ANTHROPIC_API_KEY=your_api_key_here" > .env
+   \`\`\`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. Start the development server:
+   \`\`\`bash
+   npm run dev
+   \`\`\`
 
-## Deploy on Vercel
+## Usage
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Open your browser and navigate to `http://localhost:3000`.
+2. Start enhancing your prompts with Claude AI!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Building for Production
+
+To create a production build, run:
+\`\`\`bash
+npm run build
+\`\`\`
+
+Then, start the production server with:
+\`\`\`bash
+npm start
+\`\`\`
+
+## Contributing
+
+1. Fork the project
+2. Create your feature branch (\`git checkout -b feature/AmazingFeature\`)
+3. Commit your changes (\`git commit -m 'Add AmazingFeature'\`)
+4. Push to the branch (\`git push origin feature/AmazingFeature\`)
+5. Open a pull request
+
+## License
+
+This project is licensed under the MIT License.
